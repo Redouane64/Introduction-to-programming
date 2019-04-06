@@ -272,3 +272,4 @@ compile_commands.json
 CTestTestfile.cmake
 /cmake-build-debug
 input.txt
+output.txt
