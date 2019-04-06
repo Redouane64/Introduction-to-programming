@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.13)
+cmake_minimum_required(VERSION 3.12)
 project(Introduction_to_programming)
 
 set(CMAKE_CXX_STANDARD 14)
@@ -26,3 +26,4 @@ add_executable(divisors_number src/divisors_number.cpp)
 add_executable(remove_element_array src/remove_element_array.cpp)
 add_executable(fast_euclid src/fast_euclid.cpp)
 add_executable(vocabulary_of_words src/vocabulary_of_words.cpp)
+add_executable(newton src/NewtonMethod.cpp)
