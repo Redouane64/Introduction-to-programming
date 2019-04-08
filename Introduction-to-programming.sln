@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{83D188E9-466A-4F5B-BD85-514D6010ACCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindSubstringInformHHMM", "src\FindSubstringInformHHMM\FindSubstringInformHHMM.csproj", "{954269B7-5F45-4EDB-85BF-19DDB2440323}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegularExpressions.Tasks", "src\RegularExpressions.Tasks\RegularExpressions.Tasks.csproj", "{954269B7-5F45-4EDB-85BF-19DDB2440323}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{954269B7-5F45-4EDB-85BF-19DDB2440323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -33,7 +30,13 @@ Global
 		{954269B7-5F45-4EDB-85BF-19DDB2440323}.Release|x86.ActiveCfg = Release|Any CPU
 		{954269B7-5F45-4EDB-85BF-19DDB2440323}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{954269B7-5F45-4EDB-85BF-19DDB2440323} = {83D188E9-466A-4F5B-BD85-514D6010ACCA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32530F18-E8C5-49BA-A813-386670C3337B}
 	EndGlobalSection
 EndGlobal

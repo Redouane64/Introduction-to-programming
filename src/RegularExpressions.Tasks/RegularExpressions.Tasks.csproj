@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>IntroductionToProgramming</RootNamespace>
+    <AssemblyName>RegularExpressions.Tasks</AssemblyName>
+    <!-- Change this to your desired start-up main method. -->
+    <StartupObject>IntroductionToProgramming.FindCorrectAssignmentStatementsPart4</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
