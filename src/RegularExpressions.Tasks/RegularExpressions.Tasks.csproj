@@ -6,7 +6,7 @@
     <RootNamespace>IntroductionToProgramming</RootNamespace>
     <AssemblyName>RegularExpressions.Tasks</AssemblyName>
     <!-- Change this to your desired start-up main method. -->
-    <StartupObject>IntroductionToProgramming.FindCorrectAssignmentStatementsPart4</StartupObject>
+    <StartupObject>IntroductionToProgramming.FindCorrectDates</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
