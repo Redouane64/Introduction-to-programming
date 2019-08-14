@@ -19,7 +19,7 @@ int main()
         {
             str[i] = c + (char)32;
         }
-        else if (c >= 97 && c <= 122)
+        else if(c >= 97 && c <= 122)
         {
             str[i] = c - (char)32;
         }
